@@ -16,3 +16,10 @@ def project(request, pk):
         "project": projectObj,
     }
     return render(request, 'projects/single-project.html', context)
+
+
+def createProject(request):
+    context = {
+
+    }
+    return render(request, 'projects/project_form.html', context)
